@@ -1,0 +1,31 @@
+body{
+    font-family: Arial,  sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: palevioletred;
+}
+
+audio-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+button{
+    margin: 10px;
+    padding:10px 20px;
+    font-size: 16px;
+    border:none;
+    border-radius: 5px;
+    color:lightcoral;
+    cursor: pointer;
+    position: relative;
+}
+
+button:hover{
+    background-color: black;
+}
